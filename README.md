@@ -1,5 +1,5 @@
 ## Copy-on-Write
-This directory contains my implementation for Copy-on-Write. The task were the following:
+This directory contains my implementation for Copy-on-Write. The tasks were the following:
 - write the handler for syscalls mmap, munmap and mprotect, implementing lazy allocation of physical memory (i.e allocate physical memory to the address only when access to VA is done resulting in a page fault)
 - write the page fault handler for different accesses to a page, and manage allocation of a PFN to a VA for lazy allocation
 - implement cfork with Copy-On-Write (CoW) functionality
